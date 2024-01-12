@@ -1,0 +1,136 @@
+.header{
+    padding-top: 40px;
+    padding-bottom: 140px;
+    background-image: url("../images/pexels-cottonbro-4503751\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 608px 740px;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-link{
+    color: var(--akana-green, #156963);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    text-decoration: none;
+}
+
+.header-info-box{
+    width: 523px;
+    margin-left: auto;
+}
+
+.header-title{
+    color: var(--akana-green, #156963);
+    font-family: Montserrat;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.header-text{
+    width: 493px;
+    color: var(--kq-black, #2C1500);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    margin-bottom: 110px;
+}
+
+.header-buttons-box{
+    display: flex;
+    align-items: center;
+    width: 640px;
+    margin-left: auto;
+}
+
+.haeder-btn{
+    background: var(--akana-green, #156963);
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    display: flex;
+    width: 111px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.header-buttom-btn{
+    width: 50%;
+    padding: 40px 45px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+}
+
+.header-btn-text{
+    color: var(--Gray-1, #333);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.header-btn-text-2{
+    color: #156963;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-left-text{
+    padding-left: 40px;
+}
+
+.header-btn-active{
+    background: #156963;
+}
+
+.header-btn-active .header-btn-text{
+    color: #f2f2f2;
+}
+
+.header-btn-active .header-btn-text-2{
+    color: #FFF;
+}
+
+.header-buttom-btn:nth-child(1) {
+    background-image: url("../images/arrow-back-outline\ \(1\)\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: 45px 37px;
+}
+
+.header-buttom-btn:nth-child(2) {
+    background-image: url("../../images/arrow-back-outline\ ong.svg");
+    background-repeat: no-repeat;
+    background-position: 114px 39px;
+}
