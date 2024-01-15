@@ -1,0 +1,45 @@
+.shop-wrapper{
+    padding-top: 88px;
+    padding-left: 97px;
+    padding-bottom: 88px;
+    margin-bottom: 80px;
+    background: #F3F4F6;
+}
+
+.shop{
+    position: relative;
+}
+
+.shop-title{
+    color: var(--kq-black, #2C1500);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 140% */
+    margin-bottom: 32px;
+
+}
+
+.shop-text{
+    color: var(--akana-bg, #FAFEFE);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    display: flex;
+    width: 152px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--akana-green, #156963);
+    background: var(--akana-green, #156963);
+}
+
+.shop-img{
+    position: absolute;
+    right: 100px;
+    bottom: 1px;
+}
